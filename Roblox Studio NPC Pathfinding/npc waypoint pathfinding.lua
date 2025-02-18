@@ -1,7 +1,7 @@
 local PathfindingService = game:GetService("PathfindingService")
 
 local npc = script.Parent -- Ensure this references your NPC model
-local humanoid = npc:WaitForChild("Humanoid") -- Assuming your NPC has a Humanoid
+local humanoid = npc:WaitForChild("Humanoid") 
 
 local function computePath(startPosition, finishPosition)
 	local path = PathfindingService:CreatePath({
